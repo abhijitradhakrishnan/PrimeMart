@@ -55,7 +55,7 @@ const Menu = [
 
 const Navbar = () => {
     return (
-        <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40 ">
+        <nav className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40 ">
 
             {/* Upper Navbar   */}
             <div className="bg-primary/40 py-2 ">
@@ -136,7 +136,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-        </div>
+        </nav>
     );
 };
 
